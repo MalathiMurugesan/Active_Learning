@@ -1,0 +1,10 @@
+# Package build and upload requirements
+setuptools>=58.0
+build
+twine>=3.8
+
+
+# BH-AILAB Packages
+--trusted-host 10.79.85.55
+--extra-index-url  http://10.79.85.55:28080/simple
+ailab-active-learning>=0.3.0
